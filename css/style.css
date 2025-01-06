@@ -479,9 +479,9 @@ ul.conat_info li a:hover {
      /* color: #262626 !important; */
      /* padding: 13px 0px; */
      width: 100%; 
-     font-weight: 500;
-     position: relative;
      display: block;
+     text-align: center;
+     font-weight: 500;
      line-height: 1px;
 }
 
