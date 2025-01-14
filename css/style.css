@@ -1183,4 +1183,25 @@ ul.location_icon li a:hover {
        scale : 1.1;
      }
 
+     .btn-link{
+          flex-wrap: wrap;
+          display: flex; 
+          align-items: center; 
+
+     }
+
+     .card {
+          width: 100%; /* O elemento ocupará 100% da largura disponível */
+          max-width: 100%; /* Garante que o elemento não ultrapasse os limites do contêiner */
+          word-wrap: break-word; /* Quebra palavras longas para evitar estouro do layout */
+          overflow-wrap: break-word; /* Compatibilidade para quebra de palavras */
+      }
+      
+      .card-header h5 button {
+          white-space: normal; /* Permite que o texto dentro do botão quebre a linha */
+          text-align: left; /* Alinha o texto à esquerda para um melhor layout */
+          width: 100%; /* Garante que o botão ocupe toda a largura disponível */
+      }
+      
+
 /** end footer **/
