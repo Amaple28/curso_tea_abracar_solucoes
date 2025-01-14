@@ -111,7 +111,7 @@ h4 a,
 h5 a,
 h6 a {
      color: #212121;
-     text-decoration: none!important;
+     text-decoration: none !important;
      opacity: 1
 }
 
@@ -132,6 +132,7 @@ p {
      font-weight: 500;
      font-size: 15px;
      line-height: 24px;
+     color: #000 !important;
 }
 
 a {
@@ -156,7 +157,7 @@ img {
      height: auto;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -334,8 +335,22 @@ ul.conat_info li a:hover {
      padding: 100px 0px 0px 0px;
      background-size: auto 78%;
      background-repeat: no-repeat;
-     min-height: 1150px;
+     min-height: 950px;
      background-position: right top;
+}
+
+@media (max-width: 991px) {
+     .text-img {
+          display: none;
+     }
+
+     .text-bg {
+          text-align: center;
+     }
+
+     .banner_main {
+          min-height: 500px;
+     }
 }
 
 .text-bg {
@@ -459,6 +474,14 @@ ul.conat_info li a:hover {
 
 /** end banner section **/
 
+h2 {
+     font-size: 50px;
+     color: #0f98f8;
+     line-height: 45px;
+     font-weight: bold;
+     padding: 0;
+}
+
 .titlepage h2 {
      font-size: 50px;
      color: #0f98f8;
@@ -478,7 +501,7 @@ ul.conat_info li a:hover {
      /* background-color: transparent; */
      /* color: #262626 !important; */
      /* padding: 13px 0px; */
-     width: 100%; 
+     width: 100%;
      display: block;
      text-align: center;
      font-weight: 500;
@@ -532,9 +555,7 @@ ul.conat_info li a:hover {
 
 /** service section **/
 
-.service {
-     background-color: #f7f7f9;
-     margin-top: 80px;
+.service { 
      padding: 90px 0;
 }
 
@@ -560,14 +581,14 @@ ul.conat_info li a:hover {
      justify-content: center;
      flex-direction: column;
      align-items: center;
-     width: 33.3333%; 
+     width: 33.3333%;
      padding: 0 15px;
-     color: #fff; 
+     color: #fff;
 }
 
 .service_box h3 {
      color: #fff;
-     font-size: 25px; 
+     font-size: 25px;
      padding: 0;
      font-weight: 500;
      text-align: center;
@@ -597,9 +618,9 @@ ul.conat_info li a:hover {
      color: #0f98f8;
 }
 
-.red_colo i{
+.red_colo i {
      background-color: #f80606;
-     color: #fff; 
+     color: #fff;
 }
 
 .blu_colo i {
@@ -756,7 +777,7 @@ ul.conat_info li a:hover {
      font-weight: 500;
      padding-top: 20px;
 }
- 
+
 
 .kisu {
      font-size: 17px;
@@ -820,14 +841,14 @@ ul.conat_info li a:hover {
      padding-left: 15px;
 }
 
-.card-curso{
+.card-curso {
      background-color: #fff;
      border-radius: 20px;
      padding: 20px;
      margin-top: 30px;
 }
 
-.card-curso:hover{
+.card-curso:hover {
      /* efeito de zoom */
      transform: scale(1.1);
      transition: 1s;
@@ -835,7 +856,7 @@ ul.conat_info li a:hover {
 
 }
 
-.card-curso h2{
+.card-curso h2 {
      color: #0f98f8;
      font-size: 20px;
      font-weight: 500;
@@ -1089,6 +1110,77 @@ ul.location_icon li a:hover {
      color: #000;
 }
 
+.instructor-card img {
+     border-radius: 50%;
+     width: 150px;
+     height: 150px;
+     object-fit: cover;
+     margin: 0 auto;
+}
+
+.instructor-card h5 {
+     font-size: 1.2rem;
+     font-weight: bold;
+     margin: 10px 0;
+}
+
+.div-intrutor {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.img-instrutor {
+     width: 250px;
+     height: 250px;
+     border: 3px solid #fff;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+     border-radius: 10px;
+}
+
+.shadow-lg {
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-sm {
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   i.fas {
+     margin-right: 8px;
+     color: #6c757d;
+   }
+   p {
+     font-size: 0.9rem;
+     color: #495057;
+     margin: 0 !important;
+     padding: 0 !important;
+   } 
+
+   .btn-float{
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     z-index: 1000;
+     background-color: #11b846;
+     color: #fff;
+     border: none;
+     border-radius: 50%;
+     width: 50px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     font-size: 1.5rem;
+   }
+
+     .btn-float:hover{
+       color: #fff;
+       scale : 1.1;
+     }
 
 /** end footer **/
-
