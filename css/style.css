@@ -272,7 +272,20 @@ button {
 }
 
 .sidepanel a:hover {
-     color: #0f98f8;
+     color: #168ea1;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.bg-primary,
+.btn-primary:focus 
+.btn-primary:active {
+     background-color: #168ea1 !important;
+     border-color: #168ea1 !important;
+}
+
+.text-primary{
+     color: #168ea1 !important;
 }
 
 .sidepanel .closebtn {
@@ -362,7 +375,7 @@ ul.conat_info li a:hover {
 }
 
 .text-bg h1 {
-     color: #0f98f8;
+     color: #168ea1;
      font-size: 60px;
      line-height: 70px;
      padding-bottom: 45px;
@@ -476,7 +489,7 @@ ul.conat_info li a:hover {
 
 h2 {
      font-size: 50px;
-     color: #0f98f8;
+     color: #168ea1;
      line-height: 45px;
      font-weight: bold;
      padding: 0;
@@ -484,7 +497,7 @@ h2 {
 
 .titlepage h2 {
      font-size: 50px;
-     color: #0f98f8;
+     color: #168ea1;
      line-height: 45px;
      font-weight: bold;
      padding: 0;
@@ -615,7 +628,7 @@ h2 {
 }
 
 .service_box h4:hover {
-     color: #0f98f8;
+     color: #168ea1;
 }
 
 .red_colo i {
@@ -624,7 +637,7 @@ h2 {
 }
 
 .blu_colo i {
-     background-color: #0f98f8;
+     background-color: #168ea1;
      color: #fff;
 }
 
@@ -729,7 +742,7 @@ h2 {
 #veh .carousel-control-next:hover,
 #veh .carousel-control-prev:focus,
 #veh .carousel-control-next:focus {
-     background: #0f98f8;
+     background: #168ea1;
      color: #fff;
 }
 
@@ -757,7 +770,7 @@ h2 {
 
 .values {
      padding: 90px 0 90px 0;
-     background-color: #0f98f8;
+     background-color: #168ea1;
      border-radius: 50px;
 }
 
@@ -813,7 +826,7 @@ h2 {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-     color: #0f98f8;
+     color: #168ea1;
 }
 
 #myCarousel a.carousel-control-prev {
@@ -857,7 +870,7 @@ h2 {
 }
 
 .card-curso h2 {
-     color: #0f98f8;
+     color: #168ea1;
      font-size: 20px;
      font-weight: 500;
      padding-bottom: 20px;
@@ -953,7 +966,7 @@ h2 {
 }
 
 .send_btn {
-     background: #0f98f8;
+     background: #168ea1;
      font-weight: 500;
      font-size: 18px;
      width: 198px;
@@ -1019,7 +1032,7 @@ ul.location_icon li {
 
 ul.location_icon li a {
      font-size: 40px;
-     color: #0f98f8;
+     color: #168ea1;
      line-height: 40px;
      padding-right: 16px;
      float: left;
@@ -1070,7 +1083,7 @@ ul.location_icon li a:hover {
 .sub_btn {
      font-size: 16px;
      transition: ease-in all 0.5s;
-     background-color: #0f98f8;
+     background-color: #168ea1;
      color: #fff;
      padding: 10px 0px;
      max-width: 105px;
@@ -1087,7 +1100,7 @@ ul.location_icon li a:hover {
 }
 
 .copyright {
-     background-color: #0f98f8;
+     background-color: #168ea1;
      margin-top: 70px;
      padding: 20px 0;
 }
